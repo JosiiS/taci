@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Uma Surpresa para Taci 💖</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+            text-align: center;
+            padding: 50px;
+        }
+
+        button {
+            padding: 15px 25px;
+            font-size: 18px;
+            background-color: #ff4d88;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #e6005c;
+        }
+
+        .carta {
+            display: none;
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        }
+
+        img {
+            width: 250px;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>💝 Tenho uma surpresa para você, Taci 💝</h1>
+
+    <button onclick="abrirCarta()">💌 Clique para abrir</button>
+
+    <div class="carta" id="carta">
+        <h2>Para Taci 💖</h2>
+
+        <p>
+            Querida Taci,<br><br>
+
+            Hoje eu só queria te lembrar o quanto você é especial na minha vida.
+            Nossa amizade é um presente que eu agradeço todos os dias.
+            Você ilumina tudo ao seu redor com esse jeito único de ser.<br><br>
+
+            Obrigada por cada risada, cada conversa e cada momento juntas.
+            Que nossa amizade continue sendo linda e verdadeira.<br><br>
+
+            Com todo meu carinho,<br>
+            Josi 💕
+        </p>
+
+        <img src="foto.jpg" alt="Nossa foto juntas">
+
+    </div>
+
+    <script>
+        function abrirCarta() {
+            document.getElementById("carta").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
